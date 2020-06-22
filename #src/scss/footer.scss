@@ -1,0 +1,155 @@
+.footer {
+    margin-top: 186px;
+}
+
+.nav-footer {
+    padding-bottom: 49px;
+    border-bottom: 1px solid #d8d8de;
+    margin: 0 auto;
+
+    ul {
+        justify-content: center;
+        // width: 108px;
+        // height: 43px;
+
+        li {
+            :hover {
+                color: #fff;
+                width: 108px;
+                height: 43px;
+                border-radius: 22px;
+                background-color: #008aff;
+            }
+        }
+    }
+
+
+}
+
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+    margin-top: 50px;
+    border-bottom: 1px solid #d8d8de;
+}
+
+
+.wrap {
+    display: block;
+}
+
+.footer__logo {
+
+    display: flex;
+    align-items: center;
+    width: 134px;
+    height: 69px;
+    color: #474747;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 34.6px;
+
+    &-name {
+        color: #474747;
+        font-weight: 300;
+        line-height: 19px;
+        font-weight: 300;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    img {
+        margin-right: 21px;
+        color: #474747;
+    }
+
+}
+
+.footer__contact {
+    // width: 210px;
+    height: 158px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+
+    span {
+        font-weight: 400;
+    }
+
+    a {
+        color: #008aff;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+}
+
+.footer__sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__sub-text {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.footer-input {
+    // display: block;
+    width: 370px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+
+    input {
+        min-height: 50px;
+        outline: none;
+        border: none;
+        background: #fff;
+        font-size: 16px;
+
+    }
+
+
+}
+
+
+
+.footer-social {
+    margin-top: 20px;
+
+    a {
+        margin-right: 34px;
+    }
+}
+
+.footer__descr {
+    margin-top: 50px;
+    color: #474747;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer__rights {
+    margin-top: 52px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 42px;
+}

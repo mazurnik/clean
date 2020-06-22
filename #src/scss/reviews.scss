@@ -1,0 +1,31 @@
+.reviews {
+    background-image: url(../img/reviews-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {}
+
+.titler {}
+
+.reviews-description {
+    width: 671px;
+    text-align: center;
+}
+
+.reviews__name {
+    color: #f7b74d;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.reviews__adress {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 300;
+}

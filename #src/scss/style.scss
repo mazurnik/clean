@@ -1,0 +1,35 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+    url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "JosefinSans", sans-serif;
+  font-display: swap;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1180px;
+  // height: 100vh;
+  margin: 0 auto;
+}
+
+@import "fonts";
+@import "header";
+@import 'services';
+@import 'like';
+@import 'advantages';
+@import 'reviews';
+@import 'price';
+@import 'discount';
+@import 'news';
+@import 'footer';

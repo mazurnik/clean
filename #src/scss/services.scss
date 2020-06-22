@@ -1,0 +1,87 @@
+.services {
+    padding-bottom: 167px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
+    max-width: 515px;
+
+    img {
+        text-align: center;
+        margin-bottom: 65px;
+    }
+}
+
+.services__item-name {
+    text-align: center;
+    color: #008aff;
+    font-size: 33px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.services__item-subname {
+    text-align: center;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.services__descr {
+    width: 514px;
+    height: 54px;
+    color: #474747;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 54px;
+}
+
+.services__item-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    ul {
+        // width: 140px;
+        // height: 155px;
+        color: #008aff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 35px;
+    }
+}
+
+.serv-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #474747;
+    font-family: "JosefinSans";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    // &:hover {}
+
+    // &:focus {}
+}

@@ -1,0 +1,169 @@
+.header {
+  background-color: #f2f9ff;
+  height: 918px;
+  //   position: relative;
+
+
+}
+
+.header__container {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    background-image: url(../img/women.png);
+    width: 662px;
+    height: 786px;
+    content: "";
+    margin-top: 45px;
+    right: -290px;
+    z-index: 1;
+  }
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  background-color: #ecf6fe;
+  width: 100%;
+  position: relative;
+}
+
+.header__contact {
+  color: #008aff;
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 35px;
+  z-index: 5;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.header__social {
+  display: flex;
+  justify-content: end;
+
+  picture {
+    margin-left: 18px;
+  }
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+  z-index: 20;
+
+  button {
+    width: 179px;
+    height: 43px;
+    border-radius: 22px;
+    border: none;
+    background-color: #ffe824;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    left: 65px;
+    z-index: 20;
+  }
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 19px;
+
+  &-name {
+    color: #008aff;
+    font-weight: 300;
+    line-height: 19px;
+    font-weight: 300;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  img {
+    margin-right: 21px;
+  }
+}
+
+.nav {
+  z-index: 20;
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-left: 45px;
+    }
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #008aff;
+
+  &:hover {
+    color: #008aff;
+  }
+}
+
+.btn-b {
+  width: 219px;
+  height: 67px;
+  border-radius: 34px;
+  border: none;
+  background-color: #ffe824;
+  margin-top: 50px;
+  color: #474747;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__text {
+  margin-top: 200px;
+  color: #008aff;
+  font-size: 33px;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header__slogan {
+  color: #13287e;
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 38px;
+}
+
+.description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.header-descr {
+  margin-top: 60px;
+  width: 710px;
+}
