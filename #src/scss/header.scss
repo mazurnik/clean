@@ -1,8 +1,8 @@
 .header {
   background-color: #f2f9ff;
   height: 918px;
+  width: 100%;
   //   position: relative;
-
 
 }
 
@@ -23,7 +23,7 @@
 
 .header__top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 45px;
   background-color: #ecf6fe;
